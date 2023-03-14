@@ -1,7 +1,7 @@
 class Restaurant
   attr_reader :price #, :name
   # attr_writer :name
-  attr_accessor :name
+  attr_accessor :id, :name
   # STATE / ATTRIBUTES
   # ID
   # NAME
