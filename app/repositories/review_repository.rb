@@ -28,12 +28,12 @@ class ReviewRepository
       # add a new key/value pair to our row hash
       row[:restaurant] = restaurant
       #<CSV::Row id:1 content:"Amazing place" rating:5 restaurant_id:"1" restaurant:#<Restaurant:0x00007f973a7354c8 @id=1, @name="Charlotte I", @price=2>>
-      # binding.pry
+      binding.pry
       # 2. Create the instance of review
       review = Review.new(row)
       # 3. populate our reviews array
       @reviews << review
-      # binding.pry
+      binding.pry
     end
   end
 end
